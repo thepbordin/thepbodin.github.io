@@ -3,8 +3,8 @@ import React from "react";
 function Navbar() {
   return (
     <>
-      <div className="my-10 flex justify-between flex-row m-auto max-w-sm text-lg">
-        <span>Thepbordin</span>
+      <div className="m-auto my-10 flex max-w-sm flex-row justify-between text-lg">
+        <span>Hello!</span>
         <span className="text-grayed">Skills</span>
         <span>Activities</span>
         <span>Contacts</span>
