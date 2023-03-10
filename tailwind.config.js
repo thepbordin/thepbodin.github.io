@@ -10,7 +10,8 @@ module.exports = {
         "inter": ['Inter', "sans-serif"]
       },
       boxShadow: {
-        'apple': '0px 4px 17px rgba(0, 0, 0, 0.15)'
+        // 'apple': '0px 4px 17px rgba(0, 0, 0, 0.15)'
+        'apple': '0px'
         
       },
       textColor: {

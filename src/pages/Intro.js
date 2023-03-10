@@ -1,11 +1,12 @@
 import React from "react";
 import memoji from "../img/memoji.png";
 import NavArrow from "../components/NavArrow";
-
+import { useState } from "react";
 function Intro() {
+  const learnerStyle = {};
   return (
     <>
-      <div className="flex flex-col items-center justify-center gap-10 lg:flex-row">
+      <div className="mb-20 flex flex-col items-center justify-center gap-10 lg:flex-row">
         {/* Head */}
         <div className="relative flex h-[250px] w-[250px] items-center justify-center rounded-full bg-gray-300 shadow-apple">
           <img src={memoji} className="w-[60%]" alt="" />
@@ -13,9 +14,22 @@ function Intro() {
             <span>🚀</span>
           </div>
         </div>
+
         {/* Introdution */}
-        <div className="max-w-[100%] rounded-[30px] px-10 py-8 shadow-apple lg:max-w-[30%] ">
-          <h3 className="text-2xl font-semibold">I am a student 👨🏻‍💻</h3>
+        <div
+          className="intro-container max-w-[100%] rounded-[30px] bg-white px-10 py-8 shadow-apple transition-colors duration-300 lg:max-w-[50%] xl:max-w-[35%]"
+          // style={
+          //   isLeaner ? { backgroundColor: "#" } : { backgroundColor: "#fff" }
+          // }
+        >
+          <h3 className="inline text-2xl font-semibold drop-shadow-2xl">
+            👨🏻‍💻 I am a{" "}
+            <span
+              // style={isLeaner ? learnerStyle : null}
+              className="student"
+            ></span>{" "}
+          </h3>
+
           <p className="my-2 font-inter text-grayed">
             I just graduated high school and now I'm super excited to be
             starting my college journey at Chulalongkorn University, studying
@@ -26,7 +40,7 @@ function Intro() {
             href="https://www.chula.ac.th/en/"
             rel="noreferrer noopener"
             target="_blank"
-            className="link font-medium underline"
+            className="link font-medium hover:underline"
           >
             Take me to the Chulalongkorn University <NavArrow />
           </a>
