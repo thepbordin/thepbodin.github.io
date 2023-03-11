@@ -11,7 +11,7 @@ function App() {
         <h1 className="text-left font-apple text-5xl font-semibold md:text-center">
           👋 I'm Thepbordin Jaiinsom
         </h1>
-        <Navbar /> {/* TODO: LINKS */}
+        <Navbar /> 
         <Intro />
         {/* <Skills /> */}
       </div>

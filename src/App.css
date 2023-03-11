@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: -apple-system, BlinkMacSystemFont;
+  font-family: "Poppins";
 }
 body {
   color: #1d1d1f;
@@ -53,7 +53,21 @@ h3 {
 .intro-container:hover .student::after {
   opacity: 1;
 }
+
 .student::before,
 .student::after {
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+}
+.mypic {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  translate: -100%;
+  @apply transition-all duration-[0.4s] ease-in-out;
+}
+.mypic-frame:hover > .mypic {
+  translate: 0;
+}
+.intro-container:hover + .mypic {
+  translate: 0;
 }

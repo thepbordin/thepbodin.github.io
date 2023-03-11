@@ -4,14 +4,14 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "apple": ["-apple-system, BlinkMacSystemFont"],
+        "apple": ["Exo 2", "-apple-system, BlinkMacSystemFont", ],
         "plex-sans-thai": ["IBM Plex Sans Thai", "sans-serif"],
         "poppins": ["Poppins", "sans-serif"],
         "inter": ['Inter', "sans-serif"]
       },
       boxShadow: {
-        // 'apple': '0px 4px 17px rgba(0, 0, 0, 0.15)'
-        'apple': '0px'
+        'apple': '0px 4px 17px rgba(0, 0, 0, 0.15)',
+        // 'apple': '0px'
         
       },
       textColor: {
