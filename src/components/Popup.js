@@ -4,7 +4,7 @@ function Popup() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <div className="fixed inset-1/2 z-[9999] w-[70%] h-auto -translate-x-1/2 -translate-y-1/2 bg-white rounded-[30px] p-10">
+      <div className="fixed inset-1/2 z-[9999] h-auto w-[70%] -translate-x-1/2 -translate-y-1/2 rounded-[30px] bg-white p-10">
         <h3 className="">This is Popupo</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
@@ -19,7 +19,7 @@ function Popup() {
           nisi, eius ex blanditiis optio voluptates!
         </p>
       </div>
-      <div className="fixed h-full w-full bg-black opacity-30 z-[9998]"></div>
+      <div className="fixed z-[9998] h-full w-full bg-black opacity-30"></div>
     </>
   );
 }

@@ -8,7 +8,7 @@ import { useState } from "react";
 function Intro() {
   return (
     <>
-      <div className="ove mb-20 flex flex-col items-center justify-center gap-10 lg:flex-row">
+      <div className=" mb-20 flex flex-col items-center justify-center gap-10 lg:flex-row">
         {/* Head */}
         <div className="relative flex h-[250px] w-[250px] items-center justify-center rounded-full bg-gray-300 shadow-apple">
           <img src={memoji} className="myimg w-[60%]" alt="" />
@@ -21,9 +21,9 @@ function Intro() {
         </div>
 
         {/* Introdution */}
-        <div className="intro-container max-w-[100%] rounded-[30px] bg-white px-10 py-8 shadow-apple transition-colors duration-300 lg:max-w-[50%] xl:max-w-[35%]">
-          <h3 className="inline text-2xl font-semibold drop-shadow-2xl">
-            👨🏻‍💻 I am a <span className="student"></span>{" "}
+        <div className="intro-container max-w-full rounded-[30px] bg-white px-10 py-8 shadow-apple transition-colors duration-300 lg:max-w-[50%] xl:max-w-[35%]">
+          <h3 className="block text-2xl font-medium">
+            👨🏻‍💻 I am a <span className="student inline-block w-[60%]"></span>{" "}
           </h3>
 
           <p className="my-2 font-inter text-grayed">

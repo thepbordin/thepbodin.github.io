@@ -16,9 +16,6 @@ h3 {
   @apply text-xl;
 }
 
-.link {
-  cursor: pointer;
-}
 .navarrow {
   transition: all 0.2s ease-out;
 }
@@ -27,19 +24,15 @@ h3 {
 }
 .student {
   position: relative;
-  transition: all 0.2s ease-in-out;
-  display: inline-block;
-  width: 70%;
+  @apply transition-all duration-200 ease-in-out;
 }
 
-.student::after {
-  position: absolute;
-  left: 0;
-}
 .student::before {
   content: "student";
 }
 .student::after {
+  position: absolute;
+  left: 0;
   content: "self-learner";
   opacity: 0;
   font-family: "Lobster";
@@ -47,10 +40,12 @@ h3 {
   cursor: default;
 }
 
-.intro-container:hover .student::before {
+.intro-container:hover .student::before,
+body:has(.mypic-frame:hover) .student::before {
   opacity: 0;
 }
-.intro-container:hover .student::after {
+.intro-container:hover .student::after,
+body:has(.mypic-frame:hover) .student::after {
   opacity: 1;
 }
 
@@ -65,9 +60,7 @@ h3 {
   translate: -100%;
   @apply transition-all duration-[0.4s] ease-in-out;
 }
-.mypic-frame:hover > .mypic {
-  translate: 0;
-}
-.intro-container:hover + .mypic {
+.mypic-frame:hover > .mypic,
+body:has(.intro-container:hover) .mypic {
   translate: 0;
 }

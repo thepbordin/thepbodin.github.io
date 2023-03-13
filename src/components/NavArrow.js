@@ -3,7 +3,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 function NavArrow() {
   return (
     <>
-      <FiArrowUpRight className="inline navarrow" size={14}/>
+      <FiArrowUpRight className="navarrow inline" size={14} />
     </>
   );
 }
