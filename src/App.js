@@ -4,6 +4,7 @@ import Intro from "./sections/Intro";
 import Skills from "./sections/Skills";
 import Popup from "./components/Popup";
 import Activities from "./sections/Activities";
+import Contact from "./sections/Contact";
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
         <Intro />
         {/* <Skills /> */}
         <Activities />
+        <Contact/>
       </div>
     </>
   );

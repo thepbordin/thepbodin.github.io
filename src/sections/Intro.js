@@ -33,12 +33,12 @@ function Intro() {
             to what the future holds!
           </p>
           <a
-            href="https://www.chula.ac.th/en/"
+            href="https://github.com/thepbordin/"
             rel="noreferrer noopener"
             target="_blank"
             className="link font-medium hover:underline"
           >
-            Take me to the Chulalongkorn University <NavArrow />
+            Take me to the GitHub Profile <NavArrow />
           </a>
         </div>
       </div>
