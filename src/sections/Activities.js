@@ -15,10 +15,7 @@ function Activities() {
               Streamlit Template for YOLOv5 Model Deploying
             </h4>
             <p className="my-2 text-grayed">
-              I just graduated high school and now I'm super excited to be
-              starting my college journey at Chulalongkorn University, studying
-              computer engineering and digital technology (CEDT). Looking
-              forward to what the future holds!
+              A streamlit framework template for YOLOv5 model deploying.
             </p>
             <a
               href="https://www.chula.ac.th/en/"
