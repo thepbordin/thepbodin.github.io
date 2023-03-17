@@ -8,6 +8,8 @@ body {
 body {
   color: #1d1d1f;
   background-color: #f5f5f7;
+  
+
 }
 h2 {
   @apply text-lg;

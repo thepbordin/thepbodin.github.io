@@ -1,16 +1,15 @@
 import React from "react";
 import memoji from "../img/memoji.png";
-import myimg from "../img/myimg.jpeg";
+
 import myimgRounded from "../img/myimg-rounded.png";
 import NavArrow from "../components/NavArrow";
-import { useState } from "react";
 
 function Intro() {
   return (
     <>
       <div className=" mb-20 flex flex-col items-center justify-center gap-10 lg:flex-row">
         {/* Head */}
-        <div className="relative flex h-[250px] w-[250px] items-center justify-center rounded-full bg-gray-300 shadow-apple">
+        <div className="relative flex h-[250px] w-[250px] items-center justify-center rounded-full bg-white shadow-apple">
           <img src={memoji} className="myimg w-[60%]" alt="" />
           <div className="mypic-frame absolute h-[220px] w-[220px] overflow-hidden rounded-full">
             <img src={myimgRounded} className="mypic" alt="" />

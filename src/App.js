@@ -10,10 +10,11 @@ function App() {
     <>
       {/* <Popup /> */}
       <div className="App p-10 xl:px-[200px] xl:py-[100px]">
-        <h1 className="text-left font-apple text-5xl font-medium md:text-center">
-          👋 I'm Thepbordin Jaiinsom
+        <h1 className="text-left font-apple text-5xl  md:text-center mb-10 ">
+        👋🏻 <span className="font-bold bg-gradient-to-r from-[#ff0f7b] to-[#f89b29] bg-clip-text text-transparent">I'm Thepbordin Jaiinsom</span>
         </h1>
-        <Navbar />
+        
+        {/* <Navbar /> */}
         <Intro />
         {/* <Skills /> */}
         <Activities />
