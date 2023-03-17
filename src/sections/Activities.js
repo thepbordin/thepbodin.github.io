@@ -44,7 +44,7 @@ function Activities() {
           date="June · 2022"
           title="Indoor Obstacle Detection by YOLOv5"
           desc="An object detection model to improve the lives of visually impaired individuals."
-          repo="https://github.com/thepbordin/YOLOv5-Streamlit-Deployment"
+          repo="https://github.com/thepbordin/Obstacle-Detection-for-Blind-people"
           img={obstacle}
           sty="h-full"
         />
