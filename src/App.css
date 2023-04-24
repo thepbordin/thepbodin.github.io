@@ -53,7 +53,8 @@ body:has(.mypic-frame:hover) .student::before {
   opacity: 0;
 }
 .intro-container:hover .student::after,
-body:has(.mypic-frame:hover) .student::after {
+body:has(.mypic-frame:hover) .student::after,
+.anim {
   opacity: 1;
 }
 
@@ -69,6 +70,8 @@ body:has(.mypic-frame:hover) .student::after {
   @apply transition-all duration-[0.4s] ease-in-out;
 }
 .mypic-frame:hover > .mypic,
-body:has(.intro-container:hover) .mypic {
-  translate: 0;
+body:has(.intro-container:hover) .mypic,
+.anim {
+  translate: 0 !important;
 }
+
