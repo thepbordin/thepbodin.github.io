@@ -9,7 +9,7 @@ function Activities() {
         <div className="">
           <h5 className="text-grayed">{date}</h5>
           <h4 className="text-xl font-medium">{title}</h4>
-          <p className="my-2 text-grayed">{desc}</p>
+          <p className="mb-2 text-grayed">{desc}</p>
           <a
             href={repo}
             rel="noreferrer noopener"
@@ -28,7 +28,7 @@ function Activities() {
   };
   return (
     <>
-      <h3 className="my-5 text-2xl font-medium">My Recent Activities</h3>
+      <h3 className="my-5 mt-10 text-2xl font-medium">My Recent Projects</h3>
       {/* Activities Cards Container */}
       <div className="flex max-w-full flex-col gap-5">
         {/* Cards */}

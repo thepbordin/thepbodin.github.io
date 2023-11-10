@@ -1,5 +1,6 @@
 import React from "react";
 import { FaFacebook, FaGithub, FaInstagram } from "react-icons/fa";
+import { AiFillLinkedin } from "react-icons/ai";
 
 function Contact() {
   const Click_icon = ({ icon, url }) => {
@@ -28,6 +29,10 @@ function Contact() {
           <Click_icon
             icon={<FaInstagram size={30} />}
             url="https://www.instagram.com/thepbordin247/"
+          />
+          <Click_icon
+            icon={<AiFillLinkedin size={30} />}
+            url="https://www.linkedin.com/in/thepbordin-jaiinsom-4b2800171"
           />
         </div>
       </div>
