@@ -5,8 +5,8 @@ import obstacle from "../img/ante-hamersmit-U3AKT6ryvic-unsplash.jpg"
 function Activities() {
   const Activity_card = ({ title, date, desc, repo, img, sty }) => {
     return (
-      <div className="flex flex-col items-center justify-between gap-10 rounded-[30px] px-10 py-8 shadow-apple sm:flex-row">
-        <div className="">
+      <div className="flex flex-col items-center justify-between gap-10 rounded-[30px] shadow-apple sm:flex-row overflow-hidden">
+        <div className="px-10 py-8">
           <h5 className="text-grayed">{date}</h5>
           <h4 className="text-xl font-medium">{title}</h4>
           <p className="mb-2 text-grayed">{desc}</p>
@@ -19,7 +19,7 @@ function Activities() {
             Github Repository <NavArrow />
           </a>
         </div>
-        <div className="grid aspect-square h-[160px] place-items-center rounded-[30px] bg-gray-200 object-cover shadow-apple overflow-hidden">
+        <div className="grid sm:aspect-square sm:rounded-[30px] sm:mx-10 sm:my-8 sm:h-[160px] place-items-center bg-gray-200  shadow-apple overflow-hidden">
           <img src={img} className={`scale-100 object-cover ${sty}`} alt="" />{" "}
           {/*hover:scale-105 transition-all duration-150 ease-out */}
         </div>
@@ -46,7 +46,7 @@ function Activities() {
           desc="An object detection model to improve the lives of visually impaired individuals."
           repo="https://github.com/thepbordin/Obstacle-Detection-for-Blind-people"
           img={obstacle}
-          sty="h-full"
+          sty="sm:h-full"
         />
       </div>
     </>
