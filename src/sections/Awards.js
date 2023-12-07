@@ -36,7 +36,7 @@ function Awards() {
           date="Aug · 2023"
           title="Winner award HACKaThailand 2023 (Digital Youth Network)"
           desc="by depa (Digital Economy Promotion Agency), MDES Thailand"
-          repo="https://github.com/thepbordin/YOLOv5-Streamlit-Deployment"
+          web="https://www.chula.ac.th/en/news/136587/"
           img={hackathailand}
           sty="sm:h-full"
         />
@@ -44,7 +44,7 @@ function Awards() {
           date="Aug · 2022"
           title="Winner (Best of the Best) Award CODEKATHON 2022"
           desc="by depa, Mahasarakham University · Aug 2020"
-          repo="https://github.com/thepbordin/Obstacle-Detection-for-Blind-people"
+          web="https://www.codekathon.com/final"
           img={codekathon}
           sty="sm:h-full"
         />
